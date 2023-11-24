@@ -1,60 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Menu</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu</title>
 
-<style type="text/css">
+  <style type="text/css">
+    body {
+      font-family: Arial, sans-serif;
+    }
 
-body {
-  font-family: Arial, sans-serif;
-}
+    .menu {
+      width: 400px;
+      height: 550px;
+      padding: 20px;
+      margin: 20px;
+      border: 2px solid #333;
+      background-size: cover;
+      border-radius: 10px; /* Add border radius for rounded corners */
+      color: white; /* Set text color to white */
+    }
 
-.menu {
-  width: 400px;
-  height: 550px;
-  padding: 20px;
-  margin: 20px;
-  border: 2px solid #333;
-  background-size: cover;
-  border-radius: 10px; /* Add border radius for rounded corners */
-}
+    h2 {
+      text-align: center;
+    }
 
-h2 {
-  text-align: center;
-}
+    ul {
+      list-style: none;
+      padding: 0;
+    }
 
-
-</style>
-
-
+    li {
+      margin-bottom: 10px;
+    }
+  </style>
 </head>
 <body>
-<h1>Menu</h1>
-<div class="menu" style="background-image: url('Breakfast.jpg')">
-	<p style="color: white;"><h2>Breakfast Menu</h2>
+  <h1>Menu</h1>
+
+  <div class="menu" style="background-image: url('Breakfast.jpg');">
+    <h2>Breakfast Menu</h2>
     <ul>
       <li>Pancakes</li>
       <li>Omelette</li>
       <li>Fruit Salad</li>
       <li>Coffee</li>
       <li>Orange Juice</li>
-    </ul></p>
-</div>
-<div class="menu" style="background-image: url('Lunch.jpg')">
-	<p style="color: white;<h2>Lunch Menu</h2>
+    </ul>
+  </div>
+
+  <div class="menu" style="background-image: url('Lunch.jpg');">
+    <h2>Lunch Menu</h2>
     <ul>
       <li>Caesar Salad</li>
       <li>Grilled Chicken Sandwich</li>
       <li>Pasta Primavera</li>
       <li>Iced Tea</li>
       <li>Lemonade</li>
-    </ul></p>
-</div>
-		
-<div class="menu" style="background-image: url('Dinner.jpg')">
-	<p style="color: white;<div class="menu" id="dinner">
+    </ul>
+  </div>
+
+  <div class="menu" style="background-image: url('Dinner.jpg');">
     <h2>Dinner Menu</h2>
     <ul>
       <li>Filet Mignon</li>
@@ -62,9 +68,7 @@ h2 {
       <li>Mushroom Risotto</li>
       <li>Red Wine</li>
       <li>Chocolate Cake</li>
-    </ul></p>
+    </ul>
   </div>
-	
-	
 </body>
 </html>
