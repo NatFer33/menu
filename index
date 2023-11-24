@@ -1,1 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Menu</title>
 
+<style type="text/css">
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.menu {
+  width: 400px;
+  height: 550px;
+  padding: 20px;
+  margin: 20px;
+  border: 2px solid #333;
+  background-size: cover;
+  border-radius: 10px; /* Add border radius for rounded corners */
+}
+
+h2 {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+#breakfast {
+  background-image: url('breakfast.jpg');
+  background-repeat: no-repeat;
+}
+
+#lunch {
+  background-image: url('lunch.jpg');
+  background-repeat: no-repeat;
+}
+
+#dinner {
+  background-image: url('dinner.jpg');
+  background-repeat: no-repeat;
+</style>
+
+
+</head>
+<body>
+<h1>Menu</h1>
+<div class=menu name="breakfast">
+  <ul>
+    <li>menu1</li>
+    <li>menu2</li>
+  </ul>
+
+</div>
+	
+</body>
+</html>
